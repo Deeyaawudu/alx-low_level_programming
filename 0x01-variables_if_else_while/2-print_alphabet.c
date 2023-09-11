@@ -6,9 +6,10 @@
  */
 int	main(void)
 {
-	char	letter;"abcdefghijklmnopqrstuvwxyz";
-	for	(letter	=	'a';	letter	<=	'Z';	letter++);
-	putchar(letter);
+	char	letter[26]	=	"abcdefghijklmnopqrstuvwxyz";
+	int	i;
+	for	(i	=	0;	i	<	26;	i++)
+	putchar(letter[i]);
 	putchar('\n');
 	return	(0);
 }
