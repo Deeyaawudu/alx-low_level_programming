@@ -10,12 +10,12 @@ int	main(void)
 
 {
 	char	letter[52]	=	"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int	i;
 
-		for(letter		=	'a';	letter	<=	'z';	letter++)
-		putchar(letter);
-	
-		for(letter		=	'A';	letter	<=	'Z';	letter++)
-		putchar(letter);
+		for(i	=	0;	i	<	52;	i++)
+		{
+		putchar(letter[i]);
+		}
 		putchar('\n');
 	return	(0);
 }
