@@ -1,21 +1,19 @@
 #include	<stdio.h>
 
 /**
- * main	-	program	that	prints	the	alphabet	in	lowercase	and	uppercase
+ * main	-	Prints	the	alphabet	without	q	ande
  *
  * Return:	Always	0
 */
 
 int	main(void)
 {
-	char	letter;
-	
-	for	(letter	=	'a';	letter	<=	'Z';	letter++)
+	int	i;
+		for	(i	=	97;	i	<	123;	i++)
 
-	{
-		if	(letter	!=	'a';	letter	!=	'q')
-			putchar(letter);
-	}
+		putchar(i	!=	101	&&	i	!=	113);
+		
+			putchar(i);
 	putchar('\n');
 	return	(0);
 }
